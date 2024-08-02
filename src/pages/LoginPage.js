@@ -12,7 +12,7 @@ function LoginPage() {
                     <input type="text" placeholder="Enter your username" className="w-full border-2 rounded-xl p-4 mt-1 bg-transparent border-grey-100"/> 
                     <label className="font-bold">Password</label>
                     <input type="password" placeholder="Enter your password" className="w-full border-2 rounded-xl p-4 mt-1 bg-transparent border-grey-100"/>
-                    <input type="submit" value="Login" className="button" />
+                    <input type="submit" value="Logi" className="button" />
                 </form>
             </div>  
         </div>
