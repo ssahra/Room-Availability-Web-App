@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import AvailableRoomsTable from '../components/availableRoomsTable';
+import NavigationBar from "../components/navbar";
 
 function Emptyrooms() {
     
@@ -13,7 +15,7 @@ function Emptyrooms() {
                 <div className='rooms-now-container' style={{ width: '100%' }}> 
                     <div className='copland-list' style={{ width: '100%' }}> 
                         
-                        <RoomsNowTable type="copland" /> 
+                        <AvailableRoomsTable type="copland" /> 
                     </div>
                     
                 </div>
@@ -24,4 +26,4 @@ function Emptyrooms() {
 
 }
 
-export default ;
+export default Emptyrooms;
