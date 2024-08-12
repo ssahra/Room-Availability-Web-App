@@ -21,7 +21,7 @@ const NavigationBar = () => {
                         <Link to="/BookRoom" className="hover:text-violet-800">Book A Room</Link>
                         </li>
                         <li>
-                        <Link to="/bookingOutcome" className="hover:text-violet-800">View Bookings</Link>
+                        <Link to="/ViewBooking" className="hover:text-violet-800">View Bookings</Link>
                         </li>
                         <li>
                         <Link to="/EmptyRooms" className="hover:text-violet-800">Free Rooms Now</Link>

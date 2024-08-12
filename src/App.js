@@ -4,6 +4,7 @@ import LoginPage from './pages/LoginPage';
 import EmptyRooms from './pages/Emptyrooms';
 import TimetableSearch from './pages/TimetableSearch';
 import BookRoom from './pages/BookRoom';
+import ViewBooking from './pages/ViewBooking';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Emptyrooms" element={<EmptyRooms/>} />
         <Route path="/TimetableSearch" element={<TimetableSearch/>} />
         <Route path="/BookRoom" element={<BookRoom/>} />
+        <Route path="/ViewBooking" element={<ViewBooking/>} />
       </Routes>
     </BrowserRouter>
   );
