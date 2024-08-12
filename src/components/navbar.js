@@ -15,7 +15,7 @@ const NavigationBar = () => {
                         <Link to="/Dashboard" className="hover:text-violet-800">Home</Link>
                         </li>
                         <li>
-                        <Link to="/Timetable" className="hover:text-violet-800">Timetable Search</Link>
+                        <Link to="/TimetableSearch" className="hover:text-violet-800">Timetable Search</Link>
                         </li>
                         <li>
                         <Link to="/bookRooms" className="hover:text-violet-800">Book A Room</Link>
