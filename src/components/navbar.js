@@ -33,7 +33,7 @@ const NavigationBar = () => {
                 </div>
                 <div>
                     <button className="bg-sky-600 text-white px-5 py-2 rounded-xl hover:bg-sky-800">
-                        <Link to="/Login">Sign Out</Link>
+                        <Link to="/LoginPage">Sign Out</Link>
                     </button>
                 </div>
             </nav>

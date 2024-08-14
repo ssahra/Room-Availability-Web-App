@@ -40,9 +40,9 @@ function LoginPage() {
         .then(data => {
             console.log(data);
             if (data === "Authentication Successful") {
-                navigate('/dashboard');
+                navigate('/EmptyRooms');
             } else if (data === "Admin Authentication Successful") {
-                navigate('/adminBookings');
+                navigate('/AdminBooking');
             } else if (data === "Incorrect password") {
                 setErrorMessage('Incorrect password. Please try again.');
             } else if (data === "Username not found") {

@@ -6,6 +6,7 @@ import TimetableSearch from './pages/TimetableSearch';
 import BookRoom from './pages/BookRoom';
 import ViewBooking from './pages/ViewBooking';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AdminBooking from './pages/AdminBooking';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/TimetableSearch" element={<TimetableSearch/>} />
         <Route path="/BookRoom" element={<BookRoom/>} />
         <Route path="/ViewBooking" element={<ViewBooking/>} />
+        <Route path="/AdminBooking" element={<AdminBooking/>} />
       </Routes>
     </BrowserRouter>
   );
